@@ -1,4 +1,4 @@
--- player_classlevelstats
+-- 玩家职业等级属性
 
 INSERT IGNORE INTO `player_classlevelstats` VALUES
 ('1', '1', '20', '0'),
@@ -8910,7 +8910,7 @@ INSERT IGNORE INTO `playercreateinfo` VALUES
 ('5', '7', '0', '85', '1676.71', '1678.31', '121.67', '2.70526'),
 ('5', '11', '0', '85', '1676.71', '1678.31', '121.67', '2.70526');
 
--- playercreateinfo_action
+-- 玩家创建信息_动作
 
 INSERT IGNORE INTO `playercreateinfo_action` VALUES
 ('1', '1', '0', '6603', '0'),
@@ -9385,7 +9385,7 @@ INSERT IGNORE INTO `playercreateinfo_action` VALUES
 ('5', '11', '0', '5176', '0'),
 ('5', '11', '1', '5185', '0');
 
--- playercreateinfo_item
+-- 玩家创建信息_物品
 
 INSERT IGNORE INTO `playercreateinfo_item` VALUES
 ('0', '6', '40582', '-1', ''),
@@ -9591,7 +9591,7 @@ INSERT IGNORE INTO `playercreateinfo_item` VALUES
 ('11', '11', '3661', '1', ''),
 ('11', '11', '6948', '1', '');
 
--- playercreateinfo_spell_custom
+-- 玩家创建信息_spell_custom
 
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '1', '78', 'Heroic Strike'),
@@ -16814,7 +16814,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '1024', '33786', null),
 ('16', '1024', '20719', null);
 
--- quest_template
+-- 任务模板
 
 UPDATE `quest_template` INNER JOIN `quest_template_addon` 
 	ON `quest_template_addon`.id = `quest_template`.id
